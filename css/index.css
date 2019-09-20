@@ -195,18 +195,18 @@ footer {
 @media(max-width: 800px){
     body{
         background: white;
-        color:green;
     }
 
     nav a{
         width: 100%;
         text-align: center;
+        margin: 10px 0px 0px;
         padding: 15px;
         
     }
 
     .a{
-        width: 10%;
+        width: 10em;
         display: flex;
         justify-content: center;
     }
@@ -233,20 +233,33 @@ footer {
         justify-content: flex-start;
     }
 
+    header{
+        margin: 2em 0em;
+        padding: -6em 0em;
+        height: -4em;
+   
+    }
+
     .page-content{
         flex-direction: column;
     }
 
     h1{
         color: black;
+        padding: 0%;
+        margin: 0%;
     }
 
     .tagline img{
         display: none;
     }
 
+    .tagline{
+        margin: -10%;
+    }
+
     .logo{
-        margin: 8%;
+        margin: 8% 18em;
         width: 40%;
         height: 3em;
     }
@@ -267,8 +280,10 @@ footer {
     }
 
     .middle-img{
-        display: flex;
-        justify-content: flex-start;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
     }
 
     .content-box{
@@ -283,6 +298,7 @@ footer {
     .cta-text{
         display: none;
         text-align: center;
+        width: 100%;
     }
 
 }
