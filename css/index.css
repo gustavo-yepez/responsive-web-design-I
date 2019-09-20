@@ -306,6 +306,41 @@ footer {
 @media(max-width: 500px){
     body{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    .content-box{
+        margin: 5%;
+    }
+
+    .container a{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25em;
+        width: 3vw;
+        padding: 15px;
+    }
+
+    .page-content{
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    .logo{
+        width: 50%;
+        margin: 13rem;
+    }
+
+    .top-content{
+        flex-direction: column;
+        font-size: 1.25em;
+    }
+
+    .bottom-content{
+        flex-direction: column;
+        font-size: 1.25em;
     }
 
 
